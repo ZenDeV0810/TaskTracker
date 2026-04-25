@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", "Bitcount Grid Double" ;
+}
+body{
+  background-color: #8bc6ec;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerALL{
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  height: 40rem;
+  border-radius: 20px;
+
+}
+.input-section{
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  margin: 10px;
+  align-items: center;
+  border-radius: 20px;
+}
+input{
+  border-radius: 20px;
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: baseline;
+  
+}
+textarea{
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  border-radius: 20px;
+  height: 500px;
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  resize: none; 
+}
+.date{
+  height: 30px;
+  width: 100px;
+}
+button{
+  border-radius: 40px;
+  height: 50px;
+  font-size: 20px;
+  width: 170px;
+  font-family: "Bitcount Grid Double";
+  transition: 0.10s ease-in-out;
+  background-color: beige;
+}
+button:hover{
+  opacity: 0.70;
+}
+.container{
+  background-color: beige;
+  padding: 25px;
+  width: 50rem;
+  text-align: center;
+  border-radius: 20px;
+}
+h1{
+  font-family: "Bitcount Grid Double";
+  text-align: center;
+}
+.list{
+  min-height: 60vh;
+}
+.task-card{
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  list-style: none;
+}
+
+.task-card p{
+  font-size: 16px;
+}
+
+.task-card span{
+  font-size: 14px;
+  opacity: 0.6;
+}
+#taskInput{
+  height: 150px;
+}
+
+.date{
+  height: 30px;
+  width: 150px;
+}
+.task-card p{
+  font-size: 16px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.task-content{
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+.task-content p{
+  word-break: break-word;
+}
+
+.task-content span{
+  font-size: 12px;
+  opacity: 0.6;
+}
+.time{
+  height: 30px;
+  width: 150px;
+}
